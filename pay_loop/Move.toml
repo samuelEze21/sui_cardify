@@ -1,0 +1,17 @@
+[package]
+name = "pay_loop"
+version = "0.1.0"
+edition = "2024.beta"
+
+[addresses]
+pay_loop = "0x0"
+sui = "0x2"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "53c8eb3b93dc" }
+
+[dev-dependencies]
+# Test dependencies if needed
+
+[dev-addresses]
+# Development addresses if needed
